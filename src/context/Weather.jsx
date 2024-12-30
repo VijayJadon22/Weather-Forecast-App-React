@@ -30,6 +30,8 @@ export const WeatherProvider = (props) => {
     ); // Handle the error appropriately);
   };
 
+ 
+
   return (
     <WeatherContext.Provider
       value={{

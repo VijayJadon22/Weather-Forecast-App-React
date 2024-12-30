@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     //Get current location of user as sson as App component mounts
     weather.fetchCurrentUserLocationData();
-  });
+  },[]);
 
   return (
     <div className="App">
